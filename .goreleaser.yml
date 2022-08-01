@@ -37,3 +37,5 @@ signs:
       - "${artifact}"
 snapshot:
   name_template: "{{ .Version }}-next"
+release:
+  draft: true
